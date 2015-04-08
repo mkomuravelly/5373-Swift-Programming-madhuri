@@ -1,0 +1,8 @@
+In this paper we discuss the modern Peer to Peer (P2P) file sharing technologies such as Bluetooth, Wi-Fi network through mobiles. These approaches are based on both structured and un structured P2P systems. The growth of mobile users is increasing every day. Peer to peer protocols allows users to interchange their data without using of centralized system architecture which include audio, data and video. P2P applications discuss current sharing possibilities in the wired system environment. In this system every can work as a client and as a server in the meantime shares information with others. This paper describes design, implementation, and bit of testing of these applications related to wireless networks and smart phones. These P2P systems are evaluated with respect to performance and security.
+
+
+References
+[1] Dhamale, S., Mate, P., Ohal, P., and Pawar, R., Peer To Peer Content Sharing On Wi-Fi Network For Smart Phones, IOSR Journal of Computer Engineering, Volume 10, Issue 5 Mar – Apr, 2013, Pages 06-09.
+[2] McNamara, G., and Yang, Y., Creating a mobile P2P file sharing environment over Bluetooth, published in Pervasive computing and applications, Third International conference, Alexandria, 6-8 October 2008, Pages 863-868.
+[3] Buyya, R., Hoong Ding, C., and Nutanong, S., P2P Networks for Content Sharing, Technical Report, GRIDS-TR-2003-7, Grid Computing and Distributed Systems Laboratory, University of Melbourne, Australia, December 2003.
+[4] Chandrasekar, A., Chandrasekar, K., ramasatagopan, H., proceeding MobiDE ’12 proceedings of the Eleventh ACM international workshop on Data Engineering for Wireless and mobile access, New York, NY, USA, 20102, pages 66-73.
