@@ -170,7 +170,9 @@ class ViewController: UIViewController {
         var randColor3 = myColors.fetchRandomColor()
         
         changeColor()
-        
+        button1Correct = false
+        button2Correct = false
+        button3Correct = false
         //var color = colorNumber
         var prev = ((colorNumber - 1) + colorNames.count) % colorNames.count
         var next = (colorNumber + 1) % colorNames.count
