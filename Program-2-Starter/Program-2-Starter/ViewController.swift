@@ -26,6 +26,9 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
     
     var myColors:Colors = Colors()
     
+    @IBOutlet weak var hislbl3: UILabel!
+    @IBOutlet weak var hislbl2: UILabel!
+    @IBOutlet weak var hislabl1: UILabel!
     @IBOutlet weak var rgblbl: UILabel!
     @IBOutlet weak var hsllbl: UILabel!
     @IBOutlet weak var hsvlbl: UILabel!
@@ -104,6 +107,9 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
         let labelColor:UIColor = myColors.hexStringToUIColor(myColors.fetchHexValue(color))
         chosenColorLabel.backgroundColor = labelColor
         colorItemsLabel.text = color
+        hislbl3.backgroundColor=hislbl2.backgroundColor
+        hislbl2.backgroundColor=hislabl1.backgroundColor
+        hislabl1.backgroundColor=labelColor
         
         let rgb = myColors.fetchRGB(color)
         
